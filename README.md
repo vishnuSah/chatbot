@@ -10,9 +10,9 @@ How to Run project
 5. Open browser and check host on which application is running
    --> http://127.0.0.1:5000/
 
-Chatbot UI 
+Chatbot UI </br>
+![image](https://github.com/vishnuSah/chatbot/assets/127580123/6dc6725b-1b5b-469d-a18d-25add19dea9a)
 
-    ![image](https://github.com/vishnuSah/chatbot/assets/127580123/42b649c3-f27d-4d94-9e49-34dca9386f57)
 
 Summary:
 This project is sample chat to illustrate how NLP (Natural Processing Language) technique works to understand user messages and provide appropriate responses. 
