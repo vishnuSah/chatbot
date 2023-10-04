@@ -35,6 +35,17 @@ In (intents.json), each intent is associated with a list of possible responses. 
 5. Random Response: </br>
 From the list of possible responses for the recognized intent, the chatbot selects one response at random. This adds an element of unpredictability to the conversation, making it feel more natural.
 
+Questions to be Ask for correct answer: <br>
+--> Tell me the weather forecast <br>
+--> Is it going to rain today? <br>
+--> Tell me the latest news <br>
+--> Tell me a joke <br>
+--> Share a joke with me <br>
+--> Music please <br>
+--> Help me <br>
+--> Tell me about a travel destination <br>
+--> Tell me about a sports event <br>
+--> Tell me about a tech gadget <br>
 
 
 
