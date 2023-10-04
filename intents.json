@@ -1,14 +1,83 @@
 {
-    "intents": [
+
+  "intents": [
+
       {
-        "name": "greeting",
-        "examples": ["Hello!", "Hi there!", "Hey"],
-        "responses": ["Hello!", "Hi!", "How can I assist you today?"]
+          "name": "greeting",
+          "examples": ["Hello", "Hi there", "Hey", "hi"],
+          "responses": ["Hello! How can I assist you today?", "Hi! What can I help you with?", "Hey! What's on your mind?"]
       },
       {
-        "name": "farewell",
-        "examples": ["Goodbye", "See you later", "Bye"],
-        "responses": ["Goodbye!", "Have a great day!", "Take care!"]
+          "name": "goodbye",
+          "examples": ["Goodbye", "Bye", "See you later"],
+          "responses": ["Goodbye! Have a great day!", "Bye! Feel free to return anytime.", "See you later!"]
+      },
+      {
+          "name": "weather",
+          "examples": ["What's the weather like?", "Tell me the weather forecast", "Is it going to rain today?"],
+          "responses": ["The weather is sunny today.", "Expect some rain later.", "It's going to be cloudy in the afternoon."]
+      },
+      {
+          "name": "thankyou",
+          "examples": ["Thank you", "Thanks a lot", "I appreciate it"],
+          "responses": ["You're welcome!", "No problem at all.", "Glad I could assist!"]
+      },
+      {
+          "name": "unknown",
+          "examples": ["I don't know", "I'm not sure", "Can you explain?"],
+          "responses": ["I understand. Feel free to ask anything else.", "No worries. Ask any questions you have.", "Let me know if there's something specific you'd like to know."]
+      },
+      {
+          "name": "time",
+          "examples": ["What's the current time?", "Tell me the time now", "What time is it?"],
+          "responses": ["The current time is 2:30 PM.", "It's 3:45 PM right now.", "The time is 1:15 PM."]
+      },
+      {
+          "name": "news",
+          "examples": ["Tell me the latest news", "What's in the news today?", "News headlines"],
+          "responses": ["Sure! Here are some recent news headlines...", "Let's see what's in the news today...", "The latest news is..."]
+      },
+      {
+          "name": "joke",
+          "examples": ["Tell me a joke", "I need a good laugh", "Share a joke with me"],
+          "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Here's one: How does a penguin build its house? Igloos it together!", "Sure, here's a joke: Knock, knock..."]
+
+      },
+      {
+          "name": "music",
+          "examples": ["Play some music", "I want to listen to music", "Music please"],
+          "responses": ["Let's get the music playing! Enjoy the tunes.", "Time for some music! What genre are you in the mood for?", "Sure thing! Music coming right up."]
+      },
+      {
+          "name": "help",
+          "examples": ["Help me", "I need assistance", "Can you guide me?"],
+          "responses": ["Of course! I'm here to help. What do you need assistance with?", "Sure thing. How can I assist you today?", "I'm here to provide help. Just let me know what you're looking for."]
+      },
+      {
+          "name": "food",
+          "examples": ["Recommend a restaurant", "What's a good place to eat?", "Tell me about your favorite dish"],
+          "responses": ["Sure! Here's a great restaurant recommendation.", "I know a wonderful place to eat. Let me tell you about it.", "One of my favorite dishes is..."]
+      },
+      {
+          "name": "movie",
+          "examples": ["Recommend a movie", "What's a good movie to watch?", "Tell me about the latest releases"],
+          "responses": ["Certainly! Here's a movie recommendation you might like.", "I have a great movie suggestion for you.", "The latest movie releases include..."]
+      },
+      {
+          "name": "travel",
+          "examples": ["Tell me about a travel destination", "Where should I go for my next trip?", "Share a travel tip"],
+          "responses": ["Traveling is wonderful! Let me suggest a destination for you.", "I have a travel tip that might come in handy.", "A fantastic travel destination is..."]
+      },
+      {
+          "name": "sports",
+          "examples": ["Tell me about a sports event", "What's happening in the sports world?", "Share a sports fact"],
+          "responses": ["Sports enthusiasts unite! Here's some information about a sports event.", "Stay updated with the latest sports news.", "Did you know this interesting sports fact?"]
+      },
+      {
+          "name": "technology",
+          "examples": ["Tell me about a tech gadget", "What's the latest in technology?", "Share a tech tip"],
+          "responses": ["Technology is evolving fast! Let me tell you"]
       }
     ]
-  }
+}
+    

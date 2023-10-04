@@ -22,7 +22,7 @@ def recognize_intent(user_input):
     for intent, examples in intent_examples.items():
         for example in examples:
             example_words = nltk.word_tokenize(example.lower())
-            if any(word in user_words for word in example_words):
+            if all(word in user_words for word in example_words):
                 return intent
     return None
 
